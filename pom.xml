@@ -90,6 +90,7 @@
     </properties>
 
     <modules>
+        <module>cmp</module>
         <module>configadmin</module>
         <module>messaging</module>
         <module>jaxr</module>
@@ -267,6 +268,12 @@
             </dependency>
 
             <!-- Modules in this project -->
+
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-cmp</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.wildfly</groupId>
