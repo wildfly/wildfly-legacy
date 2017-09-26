@@ -122,6 +122,16 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>org.wildfly</groupId>
+            <artifactId>wildfly-jaxr</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
     </dependencies>
 
     <profiles>

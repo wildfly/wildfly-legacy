@@ -91,6 +91,7 @@
 
     <modules>
         <module>messaging</module>
+        <module>jaxr</module>
         <module>legacy-feature-pack</module>
     </modules>
 
@@ -269,6 +270,12 @@
             <dependency>
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-messaging</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-jaxr</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
