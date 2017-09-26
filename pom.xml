@@ -90,6 +90,7 @@
     </properties>
 
     <modules>
+        <module>configadmin</module>
         <module>messaging</module>
         <module>jaxr</module>
         <module>legacy-feature-pack</module>
@@ -266,6 +267,12 @@
             </dependency>
 
             <!-- Modules in this project -->
+
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-configadmin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.wildfly</groupId>
