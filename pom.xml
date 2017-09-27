@@ -94,6 +94,7 @@
         <module>configadmin</module>
         <module>messaging</module>
         <module>jaxr</module>
+        <module>web</module>
         <module>legacy-feature-pack</module>
     </modules>
 
@@ -293,6 +294,12 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <!-- External Dependencies -->
 
             <dependency>
@@ -301,6 +308,14 @@
                 <version>${version.org.wildfly}</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.wildfly</groupId>
+                <artifactId>wildfly-undertow</artifactId>
+                <version>${version.org.wildfly}</version>
+                <scope>test</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
