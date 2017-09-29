@@ -304,13 +304,6 @@
 
             <dependency>
                 <groupId>org.wildfly</groupId>
-                <artifactId>wildfly-messaging-activemq</artifactId>
-                <version>${version.org.wildfly}</version>
-                <scope>test</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-undertow</artifactId>
                 <version>${version.org.wildfly}</version>
                 <scope>test</scope>
