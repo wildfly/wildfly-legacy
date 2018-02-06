@@ -29,8 +29,7 @@
     <parent>
         <groupId>org.wildfly</groupId>
         <artifactId>wildfly-legacy</artifactId>
-        <version>11.0.0.Final-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>12.0.0.Alpha1-SNAPSHOT</version>
     </parent>
 
     <artifactId>wildfly-messaging</artifactId>
