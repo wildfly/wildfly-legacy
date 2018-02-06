@@ -27,7 +27,7 @@
     <parent>
         <groupId>org.wildfly</groupId>
         <artifactId>wildfly-legacy</artifactId>
-        <version>12.0.0.Alpha0</version>
+        <version>12.0.0.Alpha1-SNAPSHOT</version>
     </parent>
 
     <artifactId>wildfly-messaging</artifactId>

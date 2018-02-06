@@ -31,7 +31,7 @@
 
     <groupId>org.wildfly</groupId>
     <artifactId>wildfly-legacy</artifactId>
-    <version>12.0.0.Alpha0</version>
+    <version>12.0.0.Alpha1-SNAPSHOT</version>
 
     <name>WildFly: Legacy Extensions</name>
     <description>WildFly: Legacy Extensions</description>
@@ -49,7 +49,7 @@
         <connection>scm:git:${jboss.as.scm.connection}</connection>
         <developerConnection>scm:git:${jboss.as.scm.connection}</developerConnection>
         <url>${jboss.as.scm.url}</url>
-      <tag>12.0.0.Alpha0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
